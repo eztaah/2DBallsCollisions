@@ -30,7 +30,7 @@ void UpdateBall(Ball *ball);
 
 
 // WinMain is used on windows
-int WinMain(void)
+int main(void)
 {
     const int screenWidth = 800;
     const int screenHeight = 600;
