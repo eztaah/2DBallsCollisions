@@ -9,7 +9,6 @@ set(CMAKE_C_STANDARD_REQUIRED True)
 # Fichiers source
 set(SOURCE_FILES
     src/main.c
-    src/application/globals.c
     src/application/collisions_manager.c
     src/engine/ebase.c
     src/engine/eglobals.c
@@ -61,7 +60,7 @@ endif()
 
 
 
-################################ DEBUG ################################
+################################ RELEASE ################################
 if(CMAKE_BUILD_TYPE STREQUAL "Release")
     # Create the executable from the sources files
     add_executable(release ${SOURCE_FILES})
